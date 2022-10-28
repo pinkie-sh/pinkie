@@ -32,7 +32,7 @@ repo_url: https://github.com/pinkie-sh/pinkie
 repo_name: pinkie-sh/pinkie
 
 extra_css:
-    - assets/css/extra.css
+    - assets/css/custom.css
 
 nav:
     - Home: "index.md"

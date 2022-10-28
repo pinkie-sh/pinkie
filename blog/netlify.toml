@@ -1,0 +1,4 @@
+[build]
+  base = "blog/"
+  command = "hugo"
+  publish = "public/"
