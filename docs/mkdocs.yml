@@ -1,0 +1,38 @@
+# Started with the beautiful docs at https://docs.kidger.site/equinox/
+
+theme:
+    name: material
+    features:
+        - navigation.sections
+        - toc.follow
+        - header.autohide
+
+    palette:
+        - scheme: default
+          primary: white
+          accent: amber
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
+        - scheme: slate
+          primary: black
+          accent: amber
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to light mode
+    logo: assets/logo.png
+
+docs_dir: content
+
+site_name: Pinkie Docs
+site_author: The Pinkie Community
+site_url: https://docs.pinkie.sh
+
+repo_url: https://github.com/pinkie-sh/pinkie
+repo_name: pinkie-sh/pinkie
+
+extra_css:
+    - assets/css/extra.css
+
+nav:
+    - Home: "index.md"

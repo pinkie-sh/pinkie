@@ -1,0 +1,5 @@
+baseURL = 'http://blog.pinkie.sh/'
+languageCode = 'en-us'
+title = 'Pinkie Blog'
+theme = 'minimalist'
+ignoreFiles = ["themes/minimalist/content"]
